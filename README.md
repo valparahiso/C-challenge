@@ -11,8 +11,8 @@ Lo script dovrà essere così invocato (esempio in PHP):
 
 dove ./file.csv è il percorso di un file csv così formattato:
 
-        1,Rossi,Fabio,01/06/1990; <br/>
-        2,Gialli,Alessandro,02/07/1989;<br/>
+        1,Rossi,Fabio,01/06/1990; 
+        2,Gialli,Alessandro,02/07/1989;
         3,Verdi,Alberto,03/08/1987;
 
 Il numero 2 rappresenta l'indice di colonna in cui cercare (nel file precedente il nome)<br/>
@@ -37,4 +37,4 @@ L'output del comando deve essere la linea corrispondente, nel nostro caso:
 5. The .exe file shoul be created
 6. Run the .exe file
 
-        $ search.exe
+        $ search.exe ../file.csv 2 Alberto
